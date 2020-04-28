@@ -159,8 +159,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +177,24 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Services\VaultexServices.csproj">
+      <Project>{d49bbb9d-356c-45b1-b040-367f2bd560cc}</Project>
+      <Name>VaultexServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VaultexDatabases\VaultexDatabases.csproj">
+      <Project>{57e52ca4-a41c-4666-b2dc-b83ecfbb9dd3}</Project>
+      <Name>VaultexDatabases</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VaultexDataLyer\VaultexDataLayer.csproj">
+      <Project>{ef97fcdc-f3cd-406b-b9b4-992b426d618b}</Project>
+      <Name>VaultexDataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VaultexModels\VaultexModels.csproj">
+      <Project>{7866c893-41dc-4874-8273-fd513cb1d7a2}</Project>
+      <Name>VaultexModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

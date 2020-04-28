@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultexData", "VaultexData.csproj", "{7DD8C096-E49B-4A5C-96BC-9B1D1D257713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaultex", "Vaultex.csproj", "{7DD8C096-E49B-4A5C-96BC-9B1D1D257713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultexDataLayer", "..\VaultexDataLyer\VaultexDataLayer.csproj", "{EF97FCDC-F3CD-406B-B9B4-992B426D618B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7866C893-41DC-4874-8273-FD513CB1D7A2} = {7866C893-41DC-4874-8273-FD513CB1D7A2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultexModels", "..\VaultexModels\VaultexModels.csproj", "{7866C893-41DC-4874-8273-FD513CB1D7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultexDatabases", "..\VaultexDatabases\VaultexDatabases.csproj", "{57E52CA4-A41C-4666-B2DC-B83ECFBB9DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultexServices", "..\Services\VaultexServices.csproj", "{D49BBB9D-356C-45B1-B040-367F2BD560CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,22 @@ Global
 		{7DD8C096-E49B-4A5C-96BC-9B1D1D257713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD8C096-E49B-4A5C-96BC-9B1D1D257713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD8C096-E49B-4A5C-96BC-9B1D1D257713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF97FCDC-F3CD-406B-B9B4-992B426D618B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF97FCDC-F3CD-406B-B9B4-992B426D618B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF97FCDC-F3CD-406B-B9B4-992B426D618B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF97FCDC-F3CD-406B-B9B4-992B426D618B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7866C893-41DC-4874-8273-FD513CB1D7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7866C893-41DC-4874-8273-FD513CB1D7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7866C893-41DC-4874-8273-FD513CB1D7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7866C893-41DC-4874-8273-FD513CB1D7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E52CA4-A41C-4666-B2DC-B83ECFBB9DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E52CA4-A41C-4666-B2DC-B83ECFBB9DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E52CA4-A41C-4666-B2DC-B83ECFBB9DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E52CA4-A41C-4666-B2DC-B83ECFBB9DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49BBB9D-356C-45B1-B040-367F2BD560CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49BBB9D-356C-45B1-B040-367F2BD560CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49BBB9D-356C-45B1-B040-367F2BD560CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49BBB9D-356C-45B1-B040-367F2BD560CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
